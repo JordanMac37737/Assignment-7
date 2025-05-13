@@ -1,0 +1,11 @@
+package Assignment7;
+
+public class Calendar {
+
+{
+Compare();
+}
+{
+	GetAvail();
+}
+}
