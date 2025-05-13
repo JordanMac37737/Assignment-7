@@ -1,0 +1,50 @@
+package Assignment7;
+
+public class Scheduler {
+
+private String availServices;
+private String survey;
+private String serviceNeed;
+private String appointment;
+private String referral;
+
+
+public String getAvailServices() {
+	return availServices;
+}
+public void setAvailServices(String availServices) {
+	this.availServices = availServices;
+}
+public String getSurvey() {
+	return survey;
+}
+public void setSurvey(String survey) {
+	this.survey = survey;
+}
+public String getServiceNeed() {
+	return serviceNeed;
+}
+public void setServiceNeed(String serviceNeed) {
+	this.serviceNeed = serviceNeed;
+}
+public String getAppointment() {
+	return appointment;
+}
+public void setAppointment(String appointment) {
+	this.appointment = appointment;
+}
+public String getReferral() {
+	return referral;
+}
+public void setReferral(String referral) {
+	this.referral = referral;
+}
+{
+	RequestToBeSent();
+}
+MakeAppointment();
+
+{
+MakeReferral();
+}
+}
