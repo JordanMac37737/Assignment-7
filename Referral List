@@ -1,0 +1,43 @@
+package Assignment7;
+
+public class ReferralList {
+
+private String ProviderName;
+private String location;
+private String phone;
+private String serviceProvided;
+
+
+public String getProviderName() {
+	return ProviderName;
+}
+public void setProviderName(String providerName) {
+	ProviderName = providerName;
+}
+
+public String getLocation() {
+	return location;
+}
+public void setLocation(String location) {
+	this.location = location;
+}
+
+public String getPhone() {
+	return phone;
+}
+public void setPhone(String phone) {
+	this.phone = phone;
+}
+
+public String getServiceProvided() {
+	return serviceProvided;
+}
+public void setServiceProvided(String serviceProvided) {
+	this.serviceProvided = serviceProvided;
+}
+{matchServiceNeeds();
+}
+{
+displayMatchedList();
+}
+}
