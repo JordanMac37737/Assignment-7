@@ -1,0 +1,29 @@
+package Assignment7;
+
+public class ClinicService {
+
+private String ServiceNumber;
+private String ServiceName;
+private String ServiceDescription;
+
+
+public String getServiceNumber() {
+	return ServiceNumber;
+}
+public void setServiceNumber(String serviceNumber) {
+	ServiceNumber = serviceNumber;
+}
+public String getServiceName() {
+	return ServiceName;
+}
+public void setServiceName(String serviceName) {
+	ServiceName = serviceName;
+}
+public String getServiceDescription() {
+	return ServiceDescription;
+}
+public void setServiceDescription(String serviceDescription) {
+	ServiceDescription = serviceDescription;
+}
+
+}
