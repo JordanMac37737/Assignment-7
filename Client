@@ -1,0 +1,88 @@
+package Assignment7;
+
+public class Client {
+
+private String FirstName;
+private String LastName;
+private String Street;
+private String City;
+private String State;
+private String Country;
+private String ZipCode;
+private String Phone;
+private String Email;
+private String InsuranceCarrier;
+
+
+public String getFirstName() {
+	return FirstName;
+}
+public void setFirstName(String firstName) {
+	FirstName = firstName;
+}
+
+public String getLastName() {
+	return LastName;
+}
+public void setLastName(String lastName) {
+	LastName = lastName;
+}
+
+public String getStreet() {
+	return Street;
+}
+public void setStreet(String street) {
+	Street = street;
+}
+
+public String getCity() {
+	return City;
+}
+public void setCity(String city) {
+	City = city;
+}
+
+public String getState() {
+	return State;
+}
+
+public void setState(String state) {
+	State = state;
+}
+
+public String getCountry() {
+	return Country;
+}
+public void setCountry(String country) {
+	Country = country;
+}
+
+public String getZipCode() {
+	return ZipCode;
+}
+public void setZipCode(String zipCode) {
+	ZipCode = zipCode;
+}
+
+public String getPhone() {
+	return Phone;
+}
+public void setPhone(String phone) {
+	Phone = phone;
+}
+
+public String getEmail() {
+	return Email;
+}
+public void setEmail(String email) {
+	Email = email;
+}
+
+public String getInsuranceCarrier() {
+	return InsuranceCarrier;
+}
+public void setInsuranceCarrier(String insuranceCarrier) {
+	InsuranceCarrier = insuranceCarrier;
+}
+
+}
