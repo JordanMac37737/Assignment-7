@@ -1,0 +1,22 @@
+package Assignment7;
+
+public class SurveyQuestions {
+
+private String QuestionNumber;
+private String Question;
+
+public String getQuestionNumber() {
+	return QuestionNumber;
+}
+public void setQuestionNumber(String questionNumber) {
+	QuestionNumber = questionNumber;
+}
+
+public String getQuestion() {
+	return Question;
+}
+public void setQuestion(String question) {
+	Question = question;
+}
+
+}
