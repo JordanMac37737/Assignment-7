@@ -1,0 +1,17 @@
+package Assignment7;
+
+public class ServiceNeed {
+
+private String ServiceCodes;
+
+public String getServiceCodes() {
+	return ServiceCodes;
+}
+
+public void setServiceCodes(String serviceCodes) {
+	ServiceCodes = serviceCodes;
+}
+{
+	identifyNeed();
+}
+}
